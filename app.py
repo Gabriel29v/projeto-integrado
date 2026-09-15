@@ -1,7 +1,6 @@
 
 from flask import Flask, jsonify, request
 from src.desafio1_pipeline import processar_e_transformar_tarefas, calcular_estatisticas
-
 app = Flask(__name__)
 
 # Banco de dados em memória inicializado com o formato processado
